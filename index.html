@@ -92,32 +92,41 @@ button#stop-btn:hover {
 }
 @media screen and (max-width: 480px) {
     .container {
-        width: 95%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+
         padding: 10px;
     }
 
     #app {
         padding: 1rem;
+        width: 70%;
     }
 
     .timer {
         font-size: 2rem;
         margin: 10px;
         padding: 5px;
+        width: 60%;
     }
 
     .form-group {
         flex-direction: column;
-        align-items: stretch;
+        display: flex;
+        align-items: center;
+        
     }
 
     input[type="number"] {
         margin-bottom: 10px;
-        width: 100%;
+        width: 40%;
+        padding: 10px;
     }
 
     button#start-btn, button#stop-btn {
-        width: 100%;
+        padding: 10px;
         margin-bottom: 10px;
     }
 }
